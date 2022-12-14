@@ -1,3 +1,7 @@
+/**
+ * 前端文件流下载文件，以下载excel文件为例
+ * @param {fileStream} file 
+ */
 function downloadfile(file) {
   const url = window.URL.createObjectURL(file);
   const link = document.createElement("a");
