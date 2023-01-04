@@ -17,7 +17,8 @@
 [15、将字符串中每个单词的第一个字符大写](./JavaScript/uppercaseWords.js)            
 [16、将字符串转换为camelCase](./JavaScript/toCamelCase.js)        
 [17、展平一个数，高维变一维](./JavaScript/ArrayFlat.js)            
-[18、将RGB颜色转换为十六进制](./JavaScript/rgbToHex.js)        
+[18、将RGB颜色转换为十六进制](./JavaScript/rgbToHex.js)    
+[19、判断一个日期是一年的第几周](./JavaScript/WeekOfYear.js)
 #### CSS
 #### 第三部分 其他文章
 
