@@ -19,6 +19,7 @@
 17. [展平一个数，高维变一维](./JavaScript/ArrayFlat.js)            
 18. [将RGB颜色转换为十六进制](./JavaScript/rgbToHex.js)    
 19. [判断一个日期是一年的第几周](./JavaScript/WeekOfYear.js)
+20. [最近七天，比如 2.8 00:00:00 - 2.14 23:59:59，返回毫秒时间戳数组](./JavaScript/7DaysAgo.js)
 #### CSS
 #### 第三部分 其他文章
 
