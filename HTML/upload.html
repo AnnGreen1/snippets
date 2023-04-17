@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上传文件（上传图片）</title>
+</head>
+
+<body>
+    <input type="file" id="iptFile">
+    <img src="" alt="" srcset="">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        /*文件上传思路总结 
+      1. 给file表单注册onchange事件 
+        * 当用户选择图片之后执行
+      2. 获取用户选择的图片 
+        * this.files[0]
+      3. 创建FormData对象 
+        * 只有FormData才可以上传文件
+      4. 将图片添加到FormData对象中 
+        * fd.append('参数名', this.files[0])
+      5. 发送ajax请求
+        * 文件上传请求方法一定是post, 且请求参数为 FormData对象
+      */
+        //1. file类型表单自带一个选择文件点击按钮，当用户选择文件之后就会触发onchange事件
+        document.querySelector("#iptFile").onchange = function () {
+            //this : file表单
+            //(1)获取用户选择的文件
+            let file = this.files[0]; // 非空判断，如果内容为undefined，给出提示
+            if (file == undefined) {
+                return alert("请选择上传文件！");
+            } //(2)创建FormData对象， 只有FormData对象才可以上传文件
+            let fd = new FormData(); //(3)添加文件
+            fd.append("avatar", file); //(4)发送ajax请求, 参数为 FormData对象
+            axios({
+                method: "POST",
+                url: "http://www.liulongbin.top:3009/api/upload/avatar",
+                data: fd,
+            }).then(({ data: res }) => {
+                console.log(res);
+                if (res.code != 200) {
+                    return alert(res.message);
+                } // 成功后提示，修改图片路径
+                alert("恭喜您，上传头像成功！");
+                document.querySelector(
+                    "img"
+                ).src = `http://www.liulongbin.top:3009${res.url}`;
+            });
+        };
+    </script>
+</body>
+
+</html>

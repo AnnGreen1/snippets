@@ -1,4 +1,6 @@
 # snippets
+
+#### CSS
 #### JavaScript
 1. [以O(n log n)的复杂度对一个数组进行就地洗牌](./JavaScript/ArrayDisorder.js)               
 2. [数组去重](./JavaScript/ArrayUnique.js)                
@@ -20,6 +22,10 @@
 18. [将RGB颜色转换为十六进制](./JavaScript/rgbToHex.js)    
 19. [判断一个日期是一年的第几周](./JavaScript/WeekOfYear.js)
 20. [最近七天，比如 2.8 00:00:00 - 2.14 23:59:59，返回毫秒时间戳数组](./JavaScript/7DaysAgo.js)
-#### CSS
+
+#### HTML
+
+1. [使用axios配合原生file类型input上传文件（上传图片）](./HTML/upload.html)
+2. [js实现复制内容到剪切板](./HTML/copyToClipboard.html)
 #### 第三部分 其他文章
 
