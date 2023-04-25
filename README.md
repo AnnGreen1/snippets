@@ -27,5 +27,10 @@
 
 1. [使用axios配合原生file类型input上传文件（上传图片）](./HTML/upload.html)
 2. [js实现复制内容到剪切板](./HTML/copyToClipboard.html)
+
+
+#### Vue
+
+1. [axios在vue中如何等待一个请求？](./Vue/AwaitAxios.vue)详见👉[https://github.com/AnnGreen1/vue2-javascript-demo/blob/dev/src/views/Dev/AwaitAxios.vue](https://github.com/AnnGreen1/vue2-javascript-demo/blob/dev/src/views/Dev/AwaitAxios.vue)
 #### 第三部分 其他文章
 
