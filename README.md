@@ -1,6 +1,7 @@
 # snippets
 
 #### CSS
+1. [实现一个简单loading动画](./CSS/loading.html)
 #### JavaScript
 1. [以O(n log n)的复杂度对一个数组进行就地洗牌](./JavaScript/ArrayDisorder.js)               
 2. [数组去重](./JavaScript/ArrayUnique.js)                
@@ -33,6 +34,6 @@
 #### Vue
 
 1. [axios在vue中如何等待一个请求？](./Vue/AwaitAxios.vue)
-👉[https://github.com/AnnGreen1/vue2-javascript-demo/blob/dev/src/views/Dev/AwaitAxios.vue](https://github.com/AnnGreen1/vue2-javascript-demo/blob/dev/src/views/Dev/AwaitAxios.vue)
+
 #### 第三部分 其他文章
 

@@ -34,7 +34,7 @@
                 return alert("请选择上传文件！");
             } //(2)创建FormData对象， 只有FormData对象才可以上传文件
             let fd = new FormData(); //(3)添加文件
-            fd.append("avatar", file); //(4)发送ajax请求, 参数为 FormData对象
+            fd.append("avatar", file); //(4)发送ajax请求, 参数为 FormData对象（二进制）
             axios({
                 method: "POST",
                 url: "http://www.liulongbin.top:3009/api/upload/avatar",
