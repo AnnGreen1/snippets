@@ -2,6 +2,7 @@
 
 #### CSS
 1. [实现一个简单loading动画](./CSS/loading.html)
+2. [改变复选框选中颜色](./CSS/ChangeCheckboxColor.html)
 #### JavaScript
 1. [以O(n log n)的复杂度对一个数组进行就地洗牌](./JavaScript/ArrayDisorder.js)               
 2. [数组去重](./JavaScript/ArrayUnique.js)                
