@@ -3,6 +3,7 @@
 #### CSS
 1. [实现一个简单loading动画](./CSS/loading.html)
 2. [改变复选框选中颜色](./CSS/ChangeCheckboxColor.html)
+3. [利用伪元素在一段文字前加个图标](./CSS/PreIcon.vue)
 #### JavaScript
 1. [以O(n log n)的复杂度对一个数组进行就地洗牌](./JavaScript/ArrayDisorder.js)               
 2. [数组去重](./JavaScript/ArrayUnique.js)                
@@ -36,5 +37,4 @@
 
 1. [axios在vue中如何等待一个请求？](./Vue/AwaitAxios.vue)
 
-#### 第三部分 其他文章
 
