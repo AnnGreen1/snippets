@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            text-align: center;
+            position: relative;
+            top: 30vh;
+        }
+
+        .scan {
+            width: 30px;
+            height: 320px;
+            top:calc( 30vh );
+            background: linear-gradient(to left, red, white);
+            opacity: 0.3;
+            animation-name: jiance;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: fixed;
+        }
+
+        @keyframes jiance {
+            from {
+                left:0px;
+            }
+
+            to {
+                left:100vw;
+            }
+        }
+
+        img {
+            height: 300px;
+            border: solid red 3px;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="scan"></div>
+        <img src="./100yuan.jpg" alt="" srcset="">
+    </div>
+
+</body>
+
+</html>
