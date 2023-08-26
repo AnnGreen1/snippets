@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何为 HTML 元素添加样式？</title>
+</head>
+
+<body>
+    <div id="my-element">
+        id="my-element"
+    </div>
+
+    <script>
+        const addStyles = (el, styles) => Object.assign(el.style, styles)
+
+        addStyles(document.getElementById('my-element'), {
+            background: 'red',
+            color: '#ffff00',
+            fontSize: '3rem',
+        })
+    </script>
+</body>
+
+</html>

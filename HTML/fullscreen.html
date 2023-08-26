@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何切换全屏模式？</title>
+</head>
+
+<body>
+    <button onclick="fullscreen()">切换为全屏模式</button>
+    <button onclick="fullscreen(false)">切换为非全屏模式</button>
+    <small>tips:只能由用户手动切换</small>
+    <script>
+        const fullscreen = (mode = true, el = 'body') => mode ? document.querySelector(el).requestFullscreen() : document.exitFullscreen()
+    </script>
+</body>
+
+</html>

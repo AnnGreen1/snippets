@@ -32,6 +32,8 @@
 
 1. [使用axios配合原生file类型input上传文件（上传图片）](./HTML/upload.html)
 2. [js实现复制内容到剪切板](./HTML/copyToClipboard.html)
+3. [如何为 HTML 元素添加样式？](./HTML/addStyles.html)
+4. [切换浏览器全屏模式？](./HTML/fullscreen.html)
 
 
 #### Vue
