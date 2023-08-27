@@ -28,13 +28,14 @@
 20. [最近七天，比如 2.8 00:00:00 - 2.14 23:59:59，返回毫秒时间戳数组](./JavaScript/7DaysAgo.js)
 21. [如何判断一个对象是不是空对象？](./JavaScript/ObjectIsempty.js)
 
+
 #### HTML
 
 1. [使用axios配合原生file类型input上传文件（上传图片）](./HTML/upload.html)
 2. [js实现复制内容到剪切板](./HTML/copyToClipboard.html)
 3. [如何为 HTML 元素添加样式？](./HTML/addStyles.html)
 4. [切换浏览器全屏模式？](./HTML/fullscreen.html)
-
+5. [如何关闭当前标签页？](./HTML/CloseThisWindow.html)
 
 #### Vue
 

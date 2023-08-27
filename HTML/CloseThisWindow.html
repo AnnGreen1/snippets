@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何关闭当前标签页？</title>
+</head>
+<body>
+    <button onclick="closeThisWindow()">关闭当前标签页</button>
+
+    <script>
+        function closeThisWindow(){
+            window.open("", "_self").close()
+        }
+    </script>
+</body>
+</html>
