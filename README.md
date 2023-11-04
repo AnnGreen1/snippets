@@ -31,6 +31,7 @@
 19. [判断一个日期是一年的第几周](./JavaScript/WeekOfYear.js)
 20. [最近七天，比如 2.8 00:00:00 - 2.14 23:59:59，返回毫秒时间戳数组](./JavaScript/7DaysAgo.js)
 21. [如何判断一个对象是不是空对象？](./JavaScript/ObjectIsempty.js)
+22. [用于判断经纬度是否合法的正则表达式](./JavaScript/ValidateCoordinates.js)
 
 #### HTML
 
