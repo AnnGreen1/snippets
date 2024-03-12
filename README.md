@@ -7,6 +7,7 @@
 03. [利用伪元素在一段文字前加个图标](./CSS/PreIcon.vue)
 04. [利用@keyframes实现一个扫描动画](./CSS/scan.html)
 05. [一行渐变绘制方格纸图案](./CSS/graph%20paper.html)
+06. [一行文本超出显示...](./CSS//一行文本超出....html)
 
 #### JavaScript
 
