@@ -8,6 +8,7 @@
 04. [利用@keyframes实现一个扫描动画](./CSS/scan.html)
 05. [一行渐变绘制方格纸图案](./CSS/graph%20paper.html)
 06. [一行文本超出显示...](./CSS//一行文本超出....html)
+07. [实现简单音频波形动画](./CSS/audio%20wave.html)
 
 #### JavaScript
 
